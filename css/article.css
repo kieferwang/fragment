@@ -7,6 +7,12 @@ article .container .row img {
   display: inline-block;
   box-shadow: 0 0 0 5px #fff, 0 0 15px 0 #000;
 }
+@media only screen and (max-width: 768px) {
+  article .container .row img {
+    left: 10%;
+    max-width: 80% !important;
+  }
+}
 article .container .row .video-container {
   position: relative;
   padding-bottom: 56.25%;

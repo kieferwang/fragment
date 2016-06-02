@@ -80,6 +80,7 @@ a.nav-back {
   top: 15px;
   left: 15px;
   color: rgba(0,0,0,0.5);
+  z-index: 99;
 }
 a.nav-back:hover,
 a.nav-back:focus {
@@ -192,11 +193,6 @@ nav {
 }
 .post-preview > a > .post-title.archive {
   font-size: 22px;
-}
-.post-preview > a > .post-subtitle {
-  margin: 0;
-  font-weight: 300;
-  margin-bottom: 10px;
 }
 .post-preview img {
   display: none;
@@ -380,6 +376,12 @@ article .container .row img {
   height: auto;
   display: inline-block;
   box-shadow: 0 0 0 5px #fff, 0 0 15px 0 #000;
+}
+@media only screen and (max-width: 768px) {
+  article .container .row img {
+    left: 10%;
+    max-width: 80% !important;
+  }
 }
 article .container .row .video-container {
   position: relative;
