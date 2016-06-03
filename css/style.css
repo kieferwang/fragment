@@ -272,6 +272,7 @@ nav {
 }
 .post-preview > a > .post-title.archive {
   font-size: 22px;
+  width: 100%;
 }
 .post-preview img {
   display: none;
