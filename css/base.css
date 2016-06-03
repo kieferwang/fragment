@@ -22,8 +22,8 @@ h6,
 nav,
 .intro-header .site-heading .subheading,
 .intro-header .page-heading .subheading,
-.pager li > a,
-.pager li > span {
+.pagiantion li > a,
+.pagiantion li > span {
   font-family: 'Lora', 'Times New Roman', serif;
 }
 .sans-serif,
@@ -110,7 +110,6 @@ nav,
 body,
 html {
   width: 100%;
-  height: 100%;
   font-size: 18px;
   color: #404040;
 }
@@ -170,7 +169,10 @@ nav {
   z-index: 3;
 }
 .intro {
-  margin: 100px auto;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  margin: 80px auto 0;
 }
 .intro-header {
   background-color: transparent;
@@ -397,11 +399,18 @@ form .row:first-child .floating-label-form-group {
   border: 1px solid #0085a1;
   color: #fff;
 }
-.pager {
+.pagiantion {
+  display: block;
+  padding: 55px 0;
   margin: 0;
+  text-align: center;
+  list-style: none;
 }
-.pager li > a,
-.pager li > span {
+.pagiantion li {
+  display: inline;
+}
+.pagiantion li > a,
+.pagiantion li > span {
   text-transform: uppercase;
   font-size: 14px;
   font-weight: 800;
@@ -411,15 +420,16 @@ form .row:first-child .floating-label-form-group {
   border: none;
   border-radius: none;
 }
-.pager li > a:hover,
-.pager li > a:focus {
+.pagiantion li > a:hover,
+.pagiantion li > a:focus {
+  text-decoration: none;
   color: #ce2323;
   background-color: transparent;
 }
-.pager .disabled > a,
-.pager .disabled > a:hover,
-.pager .disabled > a:focus,
-.pager .disabled > span {
+.pagiantion .disabled > a,
+.pagiantion .disabled > a:hover,
+.pagiantion .disabled > a:focus,
+.pagiantion .disabled > span {
   color: #808080;
   cursor: not-allowed;
 }
