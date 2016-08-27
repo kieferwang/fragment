@@ -244,11 +244,20 @@ nav {
 .post-preview.archive {
   padding: 12px 0;
 }
-.post-preview p {
-  margin-left: 30%;
+.post-preview p,
+.post-preview blockquote {
+  margin-left: 32%;
   padding-left: 0.6em;
   font-size: 1.1em;
   line-height: 1.5;
+}
+.post-preview blockquote {
+  border: none;
+}
+.post-preview blockquote p {
+  margin-top: 10px;
+  margin-left: 0;
+  padding: 0;
 }
 .post-preview > a {
   width: 100%;
