@@ -10,10 +10,10 @@
   -o-background-size: cover;
 }
 .serif {
-  font-family: 'Lora', 'Times New Roman', serif;
+  font-family: 'Lora', 'Times New Roman', serif !important;
 }
 .sans-serif {
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
 }
 .animation {
   animation: bodyshow 0.9s linear;

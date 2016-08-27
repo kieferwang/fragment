@@ -24,12 +24,12 @@ nav,
 .intro-header .page-heading .subheading,
 .pagiantion li > a,
 .pagiantion li > span {
-  font-family: 'Lora', 'Times New Roman', serif;
+  font-family: 'Lora', 'Times New Roman', serif !important;
 }
 .sans-serif,
 .intro-header .post-heading .subheading,
 .btn {
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
 }
 .animation,
 .post-preview,
